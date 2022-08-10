@@ -14,11 +14,14 @@ class PokemonViewController: UIViewController {
     @IBOutlet weak var labelMessage: UILabel!
     @IBOutlet var answerButtons: [UIButton]!
     
+    lazy var pokemonManager = PokemonManager()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         createButtons()
+        pokemonManager.fetchPokemon()
     }
     
     @IBAction func buttonPressed(_ sender: UIButton) {
@@ -35,5 +38,17 @@ class PokemonViewController: UIViewController {
             button.layer.cornerRadius = 10.0
         }
     }
+    
+}
+
+extension PokemonViewController: PokemonManagerDelegate {
+    func didUpdatePokemon(pokemons: [PokemonModel]) {
+        print(pokemons)
+    }
+    
+    func didFailWithError(error: Error) {
+        print(error)
+    }
+    
     
 }
