@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		031808D228986C6C00A03755 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 031808D128986C6C00A03755 /* Kingfisher */; };
+		038670A328A57182005B6E2B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038670A228A57182005B6E2B /* ResultsViewController.swift */; };
 		039F9E002898214F00B69144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F9DFF2898214F00B69144 /* AppDelegate.swift */; };
 		039F9E022898214F00B69144 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F9E012898214F00B69144 /* SceneDelegate.swift */; };
 		039F9E042898214F00B69144 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F9E032898214F00B69144 /* PokemonViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		038670A228A57182005B6E2B /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		039F9DFC2898214F00B69144 /* who is that pokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "who is that pokemon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		039F9DFF2898214F00B69144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		039F9E012898214F00B69144 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				039F9E032898214F00B69144 /* PokemonViewController.swift */,
+				038670A228A57182005B6E2B /* ResultsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038670A328A57182005B6E2B /* ResultsViewController.swift in Sources */,
 				039F9E042898214F00B69144 /* PokemonViewController.swift in Sources */,
 				03EF5D6E28A40E3B00792DE2 /* PokemonModel.swift in Sources */,
 				039F9E002898214F00B69144 /* AppDelegate.swift in Sources */,
